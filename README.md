@@ -6,7 +6,9 @@ This workshop covers how to work with geospatial data in R, from understanding s
 
 ## Slide Decks
 
-### 1. Simple Features Data (`slides-sf-data.qmd`)
+### [Welcome](https://rladiesstlmapping.rfortherestofus.com/00-welcome.html)
+
+### [1. Simple Features Data](https://rladiesstlmapping.rfortherestofus.com/01-sf-data.html)
 
 An introduction to the {sf} package and the simple features data model. Covers:
 
@@ -16,7 +18,7 @@ An introduction to the {sf} package and the simple features data model. Covers:
 - Coordinate Reference Systems (CRS) and reprojection with `st_transform()`
 - The `geometry` column and how spatial data differs from regular tabular data
 
-### 2. Accessing Raw Geospatial Data (`slides-accessing-raw-geospatial-data.qmd`)
+### [2. Accessing Raw Geospatial Data](https://rladiesstlmapping.rfortherestofus.com/02-accessing-raw-geospatial-data.html)
 
 How to import geospatial data files into R using the {sf} package. Covers:
 
@@ -25,7 +27,7 @@ How to import geospatial data files into R using the {sf} package. Covers:
 - Other geospatial data formats
 - Importing all formats with `read_sf()`
 
-### 3. Accessing Geospatial Data Through Packages (`slides-accessing-geospatial-data-through-packages.qmd`)
+### [3. Accessing Geospatial Data Through Packages](https://rladiesstlmapping.rfortherestofus.com/03-accessing-geospatial-data-through-packages.html)
 
 How to download geospatial data directly in R without downloading raw files. Covers:
 
@@ -33,7 +35,7 @@ How to download geospatial data directly in R without downloading raw files. Cov
 - **US data**: {tigris} for Census geographies (states, counties, etc.) and {tidycensus} for Census/ACS data with geometry attached
 - Setting up a Census API key
 
-### 4. Geocoding (`slides-geocoding.qmd`)
+### [4. Geocoding](https://rladiesstlmapping.rfortherestofus.com/04-geocoding.html)
 
 How to convert addresses into geographic coordinates using the {tidygeocoder} package. Covers:
 
@@ -42,7 +44,7 @@ How to convert addresses into geographic coordinates using the {tidygeocoder} pa
 - Converting geocoded results to {sf} objects with `st_as_sf()`
 - Using different geocoding services/methods (default Nominatim vs. LocationIQ)
 
-### 5. Mapping with ggplot (`slides-mapping-with-ggplot.qmd`)
+### [5. Mapping with ggplot](https://rladiesstlmapping.rfortherestofus.com/05-mapping-with-ggplot.html)
 
 An introduction to making static maps with {ggplot2} and `geom_sf()`. Covers:
 
@@ -51,7 +53,7 @@ An introduction to making static maps with {ggplot2} and `geom_sf()`. Covers:
 - Shifting Alaska and Hawaii with `shift_geometry()` from {tigris}
 - Mapping fill aesthetics to data values
 
-### 6. Making Choropleth Maps with ggplot (`slides-choropleth-maps.qmd`)
+### [6. Making Choropleth Maps with ggplot](https://rladiesstlmapping.rfortherestofus.com/06-choropleth-maps.html)
 
 How to create polished choropleth maps. Covers:
 
@@ -60,7 +62,7 @@ How to create polished choropleth maps. Covers:
 - Adjusting legend size, position, and formatting
 - Adding titles and using `scales::percent_format()` for readable legend labels
 
-### 7. Learn More (`slides-learn-more.qmd`)
+### [7. Learn More](https://rladiesstlmapping.rfortherestofus.com/07-learn-more.html)
 
 A resources slide pointing to books and references for further learning:
 
